@@ -1,6 +1,5 @@
 body{
     text-align: center;
-    background: linear-gradient( #00ff67 0%,#00d4ff 72%);
     background-repeat: no-repeat;
     height: 1000px
 }
@@ -10,10 +9,27 @@ h1{
 }
 #books{
     padding: 20px;
+        background: linear-gradient( #00ff67 0%,#00d4ff 72%);
     font-size: 18;
     text-align: center;
+    height: 800px
 }
 img{
     border-radius: 50%;
     width: 100px
+}
+#myname{
+    font-family: 'Courgette', cursive;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color:black;
+}
+#about{
+    background-color: blanchedalmond;
 }
