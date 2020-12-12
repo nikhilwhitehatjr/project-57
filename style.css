@@ -73,3 +73,6 @@ li:hover {
 #contact{
     text-align: center;
 }
+html{
+    scroll-behavior: smooth;
+}
